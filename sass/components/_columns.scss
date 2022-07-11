@@ -3,11 +3,72 @@
 * {
   box-sizing: border-box;
 }
-.main-container {
+.card-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &__text {
+    font-family: "Lexend Deca", sans-serif;
+  }
+  &__title {
+    font-family: "Big Shoulders Display";
+  }
+  &__card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    & button {
+      border-radius: 50px;
+      border: none;
+      padding: 5px 15px;
+    }
+  }
+  & > :nth-child(1) {
+    background-color: colors.$Bright-orange-color;
+    & button:nth-child(n) {
+      color: colors.$Bright-orange-color;
+    }
+  }
+  & > :nth-child(2) {
+    background-color: colors.$Dark-green-color;
+    & button:nth-child(n) {
+      color: colors.$Dark-green-color;
+    }
+  }
+  & > :nth-child(3) {
+    background-color: colors.$Very-dark-color;
+    & button:nth-child(n) {
+      color: colors.$Very-dark-color;
+    }
+  }
 }
-.car-card {
-  background-color: orange;
-  border: 2px;
+
+@media (min-width: 900px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__card {
+      height: 500px;
+      & button {
+        padding: 5px 35px;
+      }
+    }
+
+    &__text {
+      margin: 50px;
+    }
+
+    &__button {
+      padding: 5px 35px;
+    }
+  }
 }
