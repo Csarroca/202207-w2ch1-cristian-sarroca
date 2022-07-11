@@ -26,7 +26,6 @@
     "normalize-path": "^3.0.0",
     "picomatch": "^2.3.1",
     "readdirp": "^3.6.0",
-    "sass": "^1.53.0",
     "source-map-js": "^1.0.2",
     "to-regex-range": "^5.0.1"
   },
@@ -38,5 +37,8 @@
     "url": "https://github.com/Csarroca/202207-w2ch1-cristian-sarroca/issues"
   },
   "homepage": "https://github.com/Csarroca/202207-w2ch1-cristian-sarroca#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
 }
