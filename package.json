@@ -1,44 +1,29 @@
 {
-  "name": "challange1s2",
+  "name": "202207-w1chwe-cristian-sarroca-david-arques",
   "version": "1.0.0",
-  "main": "\\",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
     "local-sass": "npx sass sass/style.scss css/style.css --watch",
     "production-sass": "npx sass sass/style.scss css/style.css"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "anymatch": "^3.1.2",
-    "binary-extensions": "^2.2.0",
-    "braces": "^3.0.2",
-    "chokidar": "^3.5.3",
-    "fill-range": "^7.0.1",
-    "fsevents": "^2.3.2",
-    "glob-parent": "^5.1.2",
-    "husky": "^8.0.1",
-    "immutable": "^4.1.0",
-    "is-binary-path": "^2.1.0",
-    "is-extglob": "^2.1.1",
-    "is-glob": "^4.0.3",
-    "is-number": "^7.0.0",
-    "normalize-path": "^3.0.0",
-    "picomatch": "^2.3.1",
-    "readdirp": "^3.6.0",
-    "source-map-js": "^1.0.2",
-    "to-regex-range": "^5.0.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Csarroca/202207-w2ch1-cristian-sarroca.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Csarroca/202207-w2ch1-cristian-sarroca/issues"
   },
   "homepage": "https://github.com/Csarroca/202207-w2ch1-cristian-sarroca#readme",
-  "description": "",
   "devDependencies": {
-    "sass": "^1.53.0"
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1"
   }
 }
