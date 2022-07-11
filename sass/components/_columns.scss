@@ -1,0 +1,15 @@
+@use "../variables/colors";
+
+* {
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.car-card {
+  background-color: orange;
+}
+
+.car-card {
+}
