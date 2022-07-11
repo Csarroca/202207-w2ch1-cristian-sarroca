@@ -49,3 +49,26 @@
     }
   }
 }
+
+@media (min-width: 900px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__card {
+      height: 500px;
+      & button {
+        padding: 5px 35px;
+      }
+    }
+
+    &__text {
+      margin: 50px;
+    }
+
+    &__button {
+      padding: 5px 35px;
+    }
+  }
+}
