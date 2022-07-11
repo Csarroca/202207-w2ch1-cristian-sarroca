@@ -12,6 +12,12 @@
   border-radius: 5px;
   overflow: hidden;
 
+  &__text {
+    font-family: "Lexend Deca", sans-serif;
+  }
+  &__title {
+    font-family: "Big Shoulders Display";
+  }
   &__card {
     flex: 1;
     display: flex;
